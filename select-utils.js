@@ -22,9 +22,9 @@
  *
  *
  */
-(function(selectTagUtils, window, document, undefined) {
+(function(selectUtils, window, document, undefined) {
 
-    selectTagUtils.sortOptions = function( selectTag ){
+    selectUtils.sortOptions = function( selectTag ){
         var allOptionTags = selectTag.find("option");
         var selected = selectTag.val();
 
@@ -36,4 +36,4 @@
         selectTag.val(selected);
     }
 
-}(window.selectTagUtils = window.selectTagUtils || {}, this, this.document));
+}(window.selectUtils = window.selectUtils || {}, this, this.document));
