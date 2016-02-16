@@ -6,7 +6,7 @@
  *  - comment of Maciej Baron on www.impressivewebs.com/my-current-javascript-design-pattern
  *  - presentation from Paul Irish https://www.youtube.com/watch?v=i_qE1iAmjFg
  *
- * Created by: Adrien Berthou - September 2014
+ * Created by: Adrien Berthou
  *
  *  [1] using the browser's native localeCompare() method, this is the best solution for a clean context-free natural sorting order of strings
  *      read more:
