@@ -22,6 +22,7 @@
  *
  *
  */
+ // Requires jQuery
 (function(selectUtils, window, document, undefined) {
 
     selectUtils.sortOptions = function( selectTag ){
